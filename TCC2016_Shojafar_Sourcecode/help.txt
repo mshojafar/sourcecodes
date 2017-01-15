@@ -1,0 +1,5 @@
+In order to run the code you need to run the following TCC2016.m file in Matlab.
+
+Note that, you need to keep all other functions which are listed as m files as well as the datasets as matflies.
+
+

@@ -1,0 +1,6 @@
+Initial data for fmax=3GHz
+Time for processing 1 image: 50+30 ms (face recognition + JPEG decoding)
+Raw Image size: 1000x1000 Pixel, 3 bytes*pxl => 3Mbyte
+Compression parameters: Jpeg Q=[10-50]. On average Q=25. compression= 1:23
+Compressed Image Size: Raw Image Size / Compression
+Processing Time: Compresed Image size / Time for processing 1 image

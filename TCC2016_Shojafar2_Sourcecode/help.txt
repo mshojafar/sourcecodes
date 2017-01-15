@@ -1,0 +1,7 @@
+In order to run the code you need to run the following MMGreen.m in each folder.
+
+each folder present the plot of the original paper in http://dx.doi.org/10.1109/TCC.2016.2617367
+
+Note that, you need to keep all other functions which are listed as m files as well as the datasets as matflies.
+
+
