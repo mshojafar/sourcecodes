@@ -17,4 +17,3 @@ Step of the running project:
 7.	Automatically created a data set file in the same directory with the name of the number of port switches and application number that already entered.
 8.	Then rerun the project and choose the first option (Load dataset) to get the result of 4 different algorithms. 
 9.	Finally, we can repeat this process to create a new dataset and get the results.
-
