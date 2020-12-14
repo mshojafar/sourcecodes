@@ -17,3 +17,4 @@ Step of the running project:
 7.	Then rerun the project and choose the first option (Load dataset) to get the result of 4 different algorithms. 
 8.	Finally, we can repeat this process to create a new dataset and get the results.
 9.  For comparison, please run the 'MinPR_Final.cpp' and follow the PDF file 'MinPR_Final.pdf' 
+ 
