@@ -1,28 +1,29 @@
 Help file to run the project written in java on a CloudSim toolkit using Eclipse IDE.
 
-Dr. Zhou Zhou did this implementation. 
-Dr. Mohammad Shojafar helped on idea brainstorming and documentation. 
-Profesors Abawajy, Alazab and Li helped in English correction and leading the team.
+Dr Zhou Zhou did this implementation. 
+Dr Mohammad Shojafar helped on idea brainstorming and documentation. 
+Professors Abawajy, Alazab and Li helped in English correction and leading the team.
 
 Contact:
 
-Dr. Zhou Zhou
+Dr Zhou Zhou
 Department of mathematics and computer science, Changsha University, Changsha, China
 E-mail: zhouzhou03201@126.com
 or
 
-Dr. Mohammad Shojafar
-5GIC & 6GIC, Institute for Communication Systems (ICS), University of Surrey, Guildford,GU27XH, United Kingdom
+Dr Mohammad Shojafar
+5GIC & 6GIC, Institute for Communication Systems (ICS), University of Surrey, Guildford, GU27XH, United Kingdom
 E-mail: m.shojafar@surrey.ac.uk
  
 
 Step of the running project:
 
-* Please watch the intrusction and introduction video recorded by Dr. Zhou Zhou.
+* Please watch the instruction and introduction video recorded by Dr Zhou Zhou.
 
 Follow these steps: 
 
-0.	Install CloudSim toolkit and Eclipse IDE and set the required Machine environemnt (please see cloudsim help).
+* Install CloudSim toolkit and Eclipse IDE and set the required Machine environment (please see CloudSim help).
+
 This document is an instruction for understanding the research paper:
 
 1.	Open your project in your Eclipse IDE;
@@ -63,7 +64,7 @@ This document is an instruction for understanding the research paper:
 
 7.	Revising the "KMeansMadIQRVM" class to obtain the each server's utilization (In the paper, we use K-Means algorihtm);
 
-8.	Runing the "KMIR.jave", we get the following the experimental results:
+8.	Running the "KMIR.java", we get the following the experimental results:
 
 
 Experiment name: 20110303_KMeansMadIQR_mmt_1.0
