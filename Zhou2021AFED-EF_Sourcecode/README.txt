@@ -22,10 +22,49 @@ Step of the running project:
 
 Follow these steps: 
 
-1.	Install CloudSim toolkit and Eclipse IDE and set the required Machine environemnt (please see cloudsim help).
-2.	Open this project in your Eclipse IDE.
-3.	modify some classes and  functions ( for example:  class RunnerAbstract,  PowerVmAllocationPolicyMigrationAbstract, class PowerVmAllocationPolicyMigrationAbstract,  optimizeAllocation, public PowerHost findHostForVm );
-4.	Run and obtain the experimental results:  
+0.	Install CloudSim toolkit and Eclipse IDE and set the required Machine environemnt (please see cloudsim help).
+This document is an instruction for understanding the research paper:
+
+1.	Open your project in your Eclipse IDE;
+
+2.	Open the the "KMIR.java" that I have shared (this is a main file);
+
+3.	At the "RunnerAbstract.java"  class,  please add the following content;		
+                  // new adding content
+		 else if (vmAllocationPolicyName.equals("KMeansMadIQR")){   //–¬ÃÌº”µƒ∑Ω∑®
+				PowerVmAllocationPolicyMigrationAbstract fallbackVmSelectionPolicy = new                                                          PowerVmAllocationPolicyMigrationStaticThresholdAddTGCN(
+						hostList,
+						vmSelectionPolicy,
+						0.7);
+				vmAllocationPolicy = new KMeansMadIQRVM(
+						hostList,
+						vmSelectionPolicy,
+						parameter,
+						fallbackVmSelectionPolicy);
+			}
+		
+		//new adding content
+
+4.	At the "PowerVmAllocationPolicyMigrationAbstract.java", adding the related contents (refer to the "Five_function_definition" file);
+
+5.	In the "PowerVmAllocationPolicyMigrationAbstract.java",  revising the function named "findHostForVm", that is the following line;
+         findHostForVm(Vm vm, Set<? extends Host> excludedHosts), 
+          during the previous function,   please add key lines like that 
+
+					  double energyEfficiency=powerDiff*sla;             
+                  //powerDiff is the difference of energy consumption, SLA is difference of SLA violation
+					    if (energyEfficiency < minPower) {                 //new adding
+							minPower = energyEfficiency;                   //new adding
+							allocatedHost = host;
+						}
+
+6.	Revising the "KMeansMadIQRVM" class to decide whether a server is isHostOverUtilized/isHostLowUtilized/isHostLightUtilized/isHostMiddleUtilized/isHostMediumUtilized similar to "Five_function_definition"  file;
+
+
+7.	Revising the "KMeansMadIQRVM" class to obtain the each server's utilization (In the paper, we use K-Means algorihtm);
+
+8.	Runing the "KMIR.jave", we get the following the experimental results:
+
 
 Experiment name: 20110303_KMeansMadIQR_mmt_1.0
 Number of hosts: 800
