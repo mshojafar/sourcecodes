@@ -4,7 +4,7 @@ Dr Zhou Zhou did this implementation.
 Dr Mohammad Shojafar helped on idea brainstorming and documentation. 
 Professors Abawajy, Alazab and Li helped in English correction and leading the team.
 
-Contact:
+Contact: 
 
 Dr Zhou Zhou
 Department of mathematics and computer science, Changsha University, Changsha, China
