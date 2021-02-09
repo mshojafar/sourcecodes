@@ -1,4 +1,4 @@
-Help file to run the project written in java of CloudSim toolkit, developed using Eclipse IDE.
+Help file to run the project written in java on a CloudSim toolkit using Eclipse IDE.
 
 Dr. Zhou Zhou did this implementation. 
 Dr. Mohammad Shojafar helped on idea brainstorming and documentation. 
@@ -22,10 +22,10 @@ Step of the running project:
 
 Follow these steps: 
 
-1.	Inatall CloudSim toolkit and Eclipse IDE and set the required Machine environemnt (please see cloudsim help).
+1.	Install CloudSim toolkit and Eclipse IDE and set the required Machine environemnt (please see cloudsim help).
 2.	Open this project in your Eclipse IDE.
-3. modify some classes and  functions ( for example:  class RunnerAbstract,  PowerVmAllocationPolicyMigrationAbstract, class PowerVmAllocationPolicyMigrationAbstract,  optimizeAllocation, public PowerHost findHostForVm );
-4.  Run and obtain the experimental results:  
+3.	modify some classes and  functions ( for example:  class RunnerAbstract,  PowerVmAllocationPolicyMigrationAbstract, class PowerVmAllocationPolicyMigrationAbstract,  optimizeAllocation, public PowerHost findHostForVm );
+4.	Run and obtain the experimental results:  
 
 Experiment name: 20110303_KMeansMadIQR_mmt_1.0
 Number of hosts: 800
