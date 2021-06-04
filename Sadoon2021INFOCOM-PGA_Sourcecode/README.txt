@@ -16,6 +16,8 @@ Step of the running project:
 
 1.	Open this project in your MATLAB.
 2.	You can run each of the experiments (there are three experiments).
-3.	Run (main.m) file (on each experiment)
+3.  To run Experiment 2 and 3, first unzip the 'MIterations-comparison.zip' inside experminet 2 and 3 folders 	
+4.  Run (main.m) file (on each experiment)	
+
 
 The dataset is preprocessed and integrated into each experiment.
