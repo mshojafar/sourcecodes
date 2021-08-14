@@ -1,4 +1,4 @@
-Help file to run the project written in MATLAB toolkit.
+Help file to run the project written in MATLAB toolkit.  
 
 Dr Zhou Zhou did this implementation. 
 Dr Mohammad Shojafar helped on idea brainstorming and documentation. 
