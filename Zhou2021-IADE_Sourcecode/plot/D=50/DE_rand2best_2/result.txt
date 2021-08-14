@@ -1,0 +1,1 @@
+result of DE for the random and best case altogether.
