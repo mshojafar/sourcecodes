@@ -1,0 +1,6 @@
+This document illustrates how to run the source code:
+
+1. This code is run in windows 10 and compiled by Pycharm, and programming language is python3.7. Before running the code, you need to install the following packages:  numpy, pandas, XLRD, and sklearn.
+2. "Elman.py" is the main file, and "normalization.py" is the data processing file.
+3. When running models of different data sets, it is necessary to modify different training sets in "Elman.py" file, respectively.( such as for I/O intensive data, it needs to be revised in "Elman.py" file.  datafile = u'data\\io_train.xlsx' datafile1 = u'data\\io_test.xlsx'）.
+4. Run the "Elman.py" file to generate an Excel file with predicted values in the current path.
