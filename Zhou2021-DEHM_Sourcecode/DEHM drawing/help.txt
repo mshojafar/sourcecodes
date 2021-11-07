@@ -1,0 +1,1 @@
+In this folder you can get access to the plot results represented in the paper.
