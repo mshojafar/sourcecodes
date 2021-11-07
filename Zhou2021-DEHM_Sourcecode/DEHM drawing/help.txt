@@ -1,1 +1,2 @@
 In this folder you can get access to the plot results represented in the paper.
+You need to unzip the file in this folder on your stand-alone machine to see the results.
