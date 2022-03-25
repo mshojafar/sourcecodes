@@ -1,0 +1,1 @@
+Z. Zhou, M. Shojafar, R. Li, R. Tafazolli, "EVCT: An efficient VM deployment algorithm for a software-defined data center in a connected and autonomous vehicle environment", IEEE Transactions on Green Communications and Networking, (TGCN), pp. 1-12, 2022. 
