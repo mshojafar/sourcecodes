@@ -1,1 +1,26 @@
-Z. Zhou, M. Shojafar, R. Li, R. Tafazolli, "EVCT: An efficient VM deployment algorithm for a software-defined data center in a connected and autonomous vehicle environment", IEEE Transactions on Green Communications and Networking, (TGCN), pp. 1-12, 2022. 
+Help file to run the project written in CloudSim toolkit.  
+
+Dr Zhou Zhou did this implementation.
+Dr Mohammad Shojafar helped on idea brainstorming and documentation. 
+Professors Alazab and Faming Li helped in English correction and leading the team.
+
+Contact: 
+
+Dr Zhou Zhou
+Department of mathematics and computer science, Changsha University, Changsha, China
+E-mail: hnuzhou@hnu.edu.cn/zhouzhou03201@126.com
+
+or
+
+Professor Mohammad Shojafar
+5GIC & 6GIC, Institute for Communication Systems (ICS), University of Surrey, Guildford, GU27XH, United Kingdom
+E-mail: m.shojafar@surrey.ac.uk/m.shojafar@ieee.org
+
+
+Step of the running project:
+
+1. Download Eclipse or Myeclipse Toolkit. We use Eclipse SDK-Version: Mars (4.5) (it can work on any Eclipse version 2020+);
+2. Importing files such as " BFS.class", "Edge.class ", " FileReader.class", "Flow.class", " Graph.class" and  "Main.class " ;
+3. Open the  "Main.class " file;
+4. Run the Main.class file and input the number of nodes and each node names;
+5. Obtain the experimental results.
